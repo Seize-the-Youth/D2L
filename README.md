@@ -1,8 +1,0 @@
-# D2L
-
-Introduction
-Until recently, nearly every computer program that we interact with daily was coded by software developers from first principles. Say that we wanted to write an application to manage an e-commerce platform. After huddling around a whiteboard for a few hours to ponder the problem, we would come up with the broad strokes of a working solution that might probably look something like this: (i) users interact with the application through an interface running in a web browser or mobile application; (ii) our application interacts with a commercial-grade database engine to keep track of each user’s state and maintain records of historical transactions; and (iii) at the heart of our application, the business logic (you might say, the brains) of our application spells out in methodical detail the appropriate action that our program should take in every conceivable circumstance.
-
-To build the brains of our application, we would have to step through every possible corner case that we anticipate encountering, devising appropriate rules. Each time a customer clicks to add an item to their shopping cart, we add an entry to the shopping cart database table, associating that user’s ID with the requested product’s ID. While few developers ever get it completely right the first time (it might take some test runs to work out the kinks), for the most part, we could write such a program from first principles and confidently launch it before ever seeing a real customer. Our ability to design automated systems from first principles that drive functioning products and systems, often in novel situations, is a remarkable cognitive feat. And when you are able to devise solutions that work  of the time, you should not be using machine learning.
-
-
